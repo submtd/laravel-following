@@ -1,0 +1,25 @@
+{
+    "name": "submtd/laravel-following",
+    "description": "Enable following of users",
+    "authors": [
+        {
+            "name": "Steve Harmeyer",
+            "email": "harmeyersteve@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Submtd\\LaravelFollowing\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Submtd\\LaravelFollowing\\Providers\\LaravelFollowingServiceProvider"
+            ]
+        }
+    }
+}
